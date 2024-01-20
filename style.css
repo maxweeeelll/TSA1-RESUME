@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+body {
+    background: linear-gradient(135deg, #e3e3e3 0%, #9a9a9a 100%);
+    display: grid;
+    place-items: center;
+    font-weight: 450;
+    opacity: 1;
+}
+
+/* Navigation Links */
+.title,
+.about,
+.software,
+.education,
+.certif {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.clicked {
+    background-color: rgb(33, 132, 194);
+}
+
+.none {
+    display: none;
+}
+
+/* Resume Layout */
+.resume {
+    margin-top: 20px;
+    width: 800px;
+    box-shadow: rgba(243, 48, 14, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+#print {
+    background-color: #fff;
+    padding: 30px 50px;
+    height: 1120px; 
+}
+
+/* Header Section */
+.head {
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+}
+
+.head .main .name {
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.head .main span:nth-child(2) {
+    color: rgb(100, 100, 100);
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5px;
+}
+
+.head .main .post {
+    font-family: 'Barlow', sans-serif;
+}
+
+.head .contacts {
+    text-align: right;
+    padding-top: 7px;
+}
+
+.head .contacts .content {
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.head .contacts .symbol {
+    margin-right: 5px;
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+}
+
+/* Divider Line */
+.line {
+    height: 0.5px;
+    background-color: rgb(87, 87, 87);
+    margin: 25px 0;
+    margin-bottom: 50px;
+}
+
+/* Main Body Layout */
+.mainbody {
+    display: grid;
+    grid-template-columns: 10fr 1fr 17fr;
+    height: 900px;
+}
+
+.mainbody .border {
+    background-color: rgb(87, 87, 87);
+    width: 3px;
+    opacity: 2;
+}
+
+.mainbody .rightside {
+    padding-left: 15px;
+}
+
+/* Section Titles */
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    padding-bottom: 3px;
+    border-bottom: 2px rgb(254, 99, 16) solid;
+}
+
+/* Skills Section */
+.skill {
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.skill span {
+    font-weight: 700;
+}
+
+/* Action Buttons */
+button {
+    margin: 15px 0;
+}
+
+/* Language Section */
+.language {
+    margin-bottom: 6px;
+}
+
+.language span:nth-child(odd) {
+    font-weight: 700;
+}
+
+/* Education Section */
+.edublock {
+    margin-bottom: 10px;
+}
+
+.edublock .head {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+                
+
+.input-checkbox {
+    margin-right: 10px;
+}
+
+/* Education Header */
+.education-head {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/* Left Side Content */
+.leftside {
+    position: relative;
+}
+
+/* Profile Photo */
+.profile-photo {
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    position: absolute; 
+    top: 100px; 
+    left: 70px; 
+    right: 100px;
+    
+    margin-top: 200px; 
+    margin-bottom: 275px;
+    
+    border: 2px solid #000;
+}
+
+
+
